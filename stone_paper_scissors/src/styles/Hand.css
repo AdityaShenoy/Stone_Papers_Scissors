@@ -1,0 +1,8 @@
+.hand {
+    margin: 0 50px;
+    height: 200px;
+}
+
+.hand__user {
+    transform: scaleX(-1);
+}

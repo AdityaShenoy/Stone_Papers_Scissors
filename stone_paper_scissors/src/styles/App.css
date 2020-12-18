@@ -1,0 +1,22 @@
+.app {
+    background-color: #97D077;
+    margin: 0;
+    height: 100vh;
+}
+
+.app__header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.app__score {
+    text-align: center;
+}
+
+.app__hands {
+    text-align: center;
+}
+
+.app__buttons {
+    text-align: center;
+}
