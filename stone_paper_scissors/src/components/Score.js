@@ -1,11 +1,13 @@
 import '../styles/Score.css';
 
-export default function Score() {
+export default function Score(props) {
     return (
         <div className="score">
             <div>Score</div>
-            <div>1:0</div>
-            <div className="score__reset">
+            <div>{props.user_score}:{props.comp_score}</div>
+            <div
+                className="score__reset"
+                onClick={() => props.onReset()}>
                 Reset</div>
         </div>
     );

@@ -1,8 +1,9 @@
 import '../styles/Hand.css';
-import stone from '../images/stone.png';
 
-export default function Hand() {
+export default function Hand(props) {
     return (
-        <img className="hand" src={stone} />
+        <img className={"hand" +
+                (props.animate ? " hand--animate" : "")}
+            src={props.src} />
     );
 }

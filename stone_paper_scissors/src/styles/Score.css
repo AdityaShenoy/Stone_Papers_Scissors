@@ -11,4 +11,7 @@
 
 .score__reset {
     text-decoration: underline;
+    width:max-content;
+    margin: auto;
+    cursor: pointer;
 }
