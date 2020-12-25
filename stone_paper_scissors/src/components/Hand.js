@@ -1,10 +1,8 @@
-import '../styles/Hand.css'
+import '../styles/Hand.css';
+import stone from '../images/stone.png';
 
-export default function Hand(props) {
+export default function Hand() {
     return (
-        <img
-            src={props.src}
-            className={"hand" + (props.modifier ? props.modifier : "")}
-        />
+        <img className="hand" src={stone} />
     );
 }

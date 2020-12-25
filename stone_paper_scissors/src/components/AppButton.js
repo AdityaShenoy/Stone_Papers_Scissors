@@ -1,9 +1,9 @@
-import "../styles/AppButton.css"
+import '../styles/AppButton.css';
 
-export default function AppButton(props) {
+export default function AppButton() {
     return (
         <button className="appButton">
-            {props.name}{props.shortcut ? (" (" + props.shortcut + ")") : ""}
+            Stone
         </button>
-    )
+    );
 }

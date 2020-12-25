@@ -1,8 +1,9 @@
 .hand {
-    margin: 0 50px;
-    height: 200px;
+    height: 30vh;
 }
 
-.hand__user {
-    transform: scaleX(-1);
+@media only screen and (orientation: landscape) {
+    .hand {
+        height: 40vh;
+    }
 }

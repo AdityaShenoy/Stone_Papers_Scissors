@@ -1,22 +1,38 @@
 .app {
     background-color: #97D077;
-    margin: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: sans-serif;
 }
 
 .app__header {
     text-align: center;
-    padding: 20px 0;
+    font-size: 4vh;
+    font-weight: bold;
 }
 
-.app__score {
-    text-align: center;
+@media only screen and (orientation: landscape) {
+    .app__header {
+        font-size: 10vh;
+    }
 }
 
 .app__hands {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .app__buttons {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (orientation: landscape) {
+    .app__buttons {
+        flex-direction: row;
+    }
 }
